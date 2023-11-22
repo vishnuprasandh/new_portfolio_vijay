@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: ${({ theme }) => theme.card_light};
     height: 80px;
     display: flex;
     align-items: center;
@@ -44,6 +44,7 @@ export const Span = styled.div`
     font-size: 18px;
 `;
 export const NavItems = styled.ul`
+color: ${({ theme }) => theme.text_primary};
     width: 100%;
     display: flex;
     align-items: center;
@@ -55,6 +56,7 @@ export const NavItems = styled.ul`
     @media screen and (max-width: 768px) {
       display: none;
     }
+    
 `;
 
 export const NavLink = styled.a`
@@ -72,7 +74,6 @@ export const NavLink = styled.a`
     }
 `;
 
-
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
@@ -89,12 +90,35 @@ export const GitHubButton = styled.a`
   transition: all 0.6s ease-in-out;
     :hover {
       background: ${({ theme }) => theme.primary};
-      color: ${({ theme }) => theme.white};     
+      color: ${({ theme }) => theme.primary};     
     }
     @media screen and (max-width: 768px) { 
     font-size: 14px;
     }
 `;
+
+// export const WhatsappButton = styled.a`
+//   border: 1.8px solid ${({ theme }) => theme.primary};
+//   justify-content: center;
+//   display: flex;
+//   align-items: center;
+//   height: 70%;
+//   border-radius: 20px;
+//   color: ${({ theme }) => theme.primary};
+//   cursor: pointer;
+//   padding: 0 20px;
+//   font-weight: 500;
+//   text-decoration: none;
+//   font-size: 16px;
+//   transition: all 0.6s ease-in-out;
+//     :hover {
+//       background: ${({ theme }) => theme.primary};
+//       color: ${({ theme }) => theme.primary};     
+//     }
+//     @media screen and (max-width: 768px) { 
+//     font-size: 14px;
+//     }
+// `;
 
 export const ButtonContainer = styled.div`
   width: 80%;  
@@ -133,7 +157,7 @@ export const MobileMenu = styled.div`
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;
-    background: ${({ theme }) => theme.card_light+99};
+    background: ${({ theme }) => theme.card_light + 99};
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
@@ -186,11 +210,11 @@ export const MobileMenuButton = styled.a`
 
   :hover {
     background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.primary};
   }
 `;
 
-export  const MobileLink = styled.a`
+export const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   font-weight: 500;
   cursor: pointer;
