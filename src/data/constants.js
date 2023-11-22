@@ -362,14 +362,14 @@ export const experiences = [
 ];
 
 export const education = [
-  {
-    id: 0,
-    img: "image/guvi.png",
-    school: "GUVI",
-    date: "2016-2017",
-    grade: "8.71 CGPA",
-    degree: "Post Graduate Diploma in Embedded System and Design",
-  },
+  // {
+  //   id: 0,
+  //   img: "image/guvi.png",
+  //   school: "GUVI",
+  //   date: "2016-2017",
+  //   grade: "8.71 CGPA",
+  //   degree: "Post Graduate Diploma in Embedded System and Design",
+  // },
   {
     id: 1,
     img: "image/Sri Ganesh.png",
