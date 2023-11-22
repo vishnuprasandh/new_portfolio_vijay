@@ -9,8 +9,7 @@ export const Bio = {
   github: "https://github.com/vijayshagara",
   // whatsapp2: "https://wa.link/xpia4z",
   whatsapp: "https://wa.me/8072340596",
-  resume:
-    "https://drive.google.com/file/d/1ELqHOjKelKeZIA6wSSUa-oD_TgaE1qUE/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1zav6yMsk2-xhDXCqH32uOISOTdi3lfQR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vijay-vijay-745986202/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/_vijay_ajith_?utm_source=qr&igshid=OGIxMTE0OTdkZA%3D%3D",
