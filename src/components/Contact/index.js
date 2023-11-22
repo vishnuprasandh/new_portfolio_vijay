@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import { Snackbar } from '@mui/material';
 import Alert from '@mui/material/Alert';
 import axios from 'axios';
+import emailjs from '@emailjs/browser';
+
+
+//service_og4yw0j
 
 const Container = styled.div`
   display: flex;
@@ -185,6 +189,8 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const templateParams = {...formData};
+  
     if (isLoading) {
       return; // Prevent multiple submissions
     }
@@ -194,21 +200,12 @@ const Contact = () => {
     if (isFormValid) {
       const formData = new FormData(formRef.current); // Use the ref here
 
-      const spreadsheetId2 = process.env.REACT_APP_SPREADSHEET_ID_02;
-
       try {
-        const response = await axios.post(
-          spreadsheetId2,
-          formData
-        );
-
+        const response = await emailjs.send('service_og4yw0j','template_55afs2k', templateParams, 'k-2DLDiwpiQ5fcT8I')
         // Handle the response as needed
-
-        const data = response.data;
-        console.log(data);
-        setOpen(true);
-        setLoading(true);
-        window.location.reload();
+          setOpen(true);
+          setLoading(true);
+          window.location.reload();
       } catch (error) {
         console.error('Error:', error);
       }

@@ -39,3 +39,15 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+
+  @media (max-width: 660px){
+    .iqcODW {
+        align-items: center !important;
+        -webkit-box-align: end;
+        align-items: end;
+    }
+  }
+
+  .ilZpio {
+    background-color: rgba(58, 58, 158, 0.6) !important;
+}
