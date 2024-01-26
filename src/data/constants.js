@@ -346,7 +346,7 @@ export const experiences = [
     role: " Worked as a Junior Fullstack developer in Mediwave Digital Pvt Ltd ",
     // company: "Neurobit",
     date: "from january 2023 to till date",
-    desc: "As a junior Fullstack Developer at Mediwave Digital Pvt Ltd since December 2023, I've been learning and contributing to both front-end and back-end development. My role involves collaborating with the team to create user-friendly digital solutions. I assist in designing interfaces and building server-side systems to deliver high-quality applications. I'm actively involved in cross-functional teamwork, working with product managers and designers to meet business needs and create innovative digital products.",
+    desc: "As a junior Fullstack Developer at Mediwave Digital Pvt Ltd, I have been learning and contributing to both front-end and back-end development. My role involves collaborating with the team to create user-friendly digital solutions. I assist in designing interfaces and building server-side systems to deliver high-quality applications. I am actively involved in cross-functional teamwork, working with product managers and designers to meet business needs and create innovative digital products. I am still currently working at Mediwave.",
     // skills: [
     //   "ReactJS",
     //   "Redux",
